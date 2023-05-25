@@ -1,4 +1,5 @@
 # CookieClicker
+## Alejandro Muñoz Shimano A01705550
 
 Este proyecto es una versión basada en texto del popular videojuego "Cookie Clicker". El juego se trata de conseguir puntos al "darle clic" a una galleta (en este caso se hará con inputs en la consola). Esos puntos podrán ser usados consecuentemente para comprar mejoras, las cuales son las siguientes:
 
