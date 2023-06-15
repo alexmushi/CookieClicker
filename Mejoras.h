@@ -1,18 +1,31 @@
-#ifndef MEJORAS_H_INCLUDED
-#define MEJORAS_H_INCLUDED
-#include <iostream>
-#include <string>
-#include <vector>
+/*
+ *
+ * Proyecto Cookie Clicker clase Mejoras
+ * Alejandro Muñoz Shimano
+ * A01705550
+ * 15/06/2023
+ * version : 2
+ * Esta clase defina objeto de tipo Mejora que contiene las clases heredadas
+ * MejoraClick y MejoraCursor.
+ */
 
-// Clase base abstracta Mejora
+#ifndef MEJORAS
+#define MEJORAS
+#include <iostream>
+
+// Declaracion de clase Mejora que es abstracta
 class Mejora {
+
+    // Declaro variables de instancia
 protected:
     std::string nombre;
     int costo;
     float multiplicadorCosto;
 
+    // Declaro los métodos que va a tener el objeto
 public:
 
+    // Constructor
     Mejora(const std::string& nombre, int costoInicial, float multiplicadorCosto)
         : nombre(nombre), costo(costoInicial), multiplicadorCosto(multiplicadorCosto) {}
 
@@ -32,25 +45,26 @@ public:
     }
 };
 
-// Clase derivada MejoraClick
+// Declaro objeto MejoraClick que hereda de Mejora
 class MejoraClick : public Mejora {
+    // Métodos
 public:
     MejoraClick() : Mejora("Mejora de Click", 10, 1.5) {}
 
-    void aplicarMejora(int& valorClick, int&) override {
+    void aplicarMejora(int& valorClick, int&) {
         valorClick += 1;
     }
 };
 
-// Clase derivada MejoraCursor
+// Declaro objeto MejoraClick que hereda de Mejora
 class MejoraCursor : public Mejora {
 public:
     MejoraCursor() : Mejora("Mejora de Cursor", 100, 2.0) {}
 
-    void aplicarMejora(int& valorClick, int& contadorCursores) override {
+    void aplicarMejora(int& valorClick, int& contadorCursores) {
         contadorCursores += 1;
     }
 };
 
 
-#endif // MEJORAS_H_INCLUDED
+#endif // MEJORAS
