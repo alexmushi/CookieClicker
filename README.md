@@ -1,25 +1,19 @@
 # CookieClicker
 ## Alejandro Muñoz Shimano A01705550
 
-Este proyecto es una versión basada en texto del popular videojuego "Cookie Clicker". El juego se trata de conseguir puntos al "darle clic" a una galleta (en este caso se hará con inputs en la consola). Esos puntos podrán ser usados consecuentemente para comprar mejoras, las cuales son las siguientes:
-
-Poder del clic: Mientras más alto sea el nivel, mayor será el número de galletas conseguidas por clic. (Si se dan dos clics con un poder nivel 5, se conseguirán 10 galletas
-
-Cursor: Los asistentes funcionan como multiplicador del poder del clic. (Si se dan dos clics con un poder nivel 5 y 3 cursores, se conseguirán 30 galletas)
-
-Consta de un menú con las opciones iniciales y corre sobre consola.
-El programa dejará de funcionar si el usuario ingresa cualquier carácter que no sea un número. Si se ingresa un número no válido, se imprimirá un mensaje de error.
-
-
 ## Contexto
-En el juego Cookie Clicker, los jugadores disfrutan haciendo clic en una galleta para ganar galletas virtuales. El juego ofrece la posibilidad de comprar mejoras que aumentan la eficiencia del clic y proporcionan beneficios adicionales para conseguir más galletas. El objetivo es acumular la mayor cantidad de galletas posible.
+Este proyecto es una versión basada en texto del popular videojuego "Cookie Clicker". El juego se trata de conseguir puntos al "darle clic" a una galleta (en este caso se hará con inputs en la consola). Esos puntos podrán ser usados consecuentemente para comprar mejoras, las cuales facilitan el conseguir galletas. El objetivo es acumular la mayor cantidad de galletas posible.
 
 ## Diagrama UML
 
 ## Funcionalidad
 El programa de Cookie Clicker permite a los jugadores interactuar con el juego a través de una interfaz de consola. Al ejecutar el programa, se muestra un menú donde los jugadores pueden elegir entre diferentes opciones, como hacer clic en la galleta para ganar galletas, comprar mejoras o salir del juego. Los jugadores pueden ver la cantidad actual de galletas, el poder del clic y la cantidad de cursores que poseen.
 
-El juego ofrece mejoras que se pueden comprar con galletas. Cada mejora tiene un costo y proporciona beneficios específicos, como aumentar el valor del clic o agregar más cursores. Los jugadores pueden ver las mejoras disponibles y su costo, y luego seleccionar una mejora para comprarla. Si tienen suficientes galletas, se realiza la compra y se aplican los beneficios de la mejora. Cada vez que se compra una mejora, su precio aumenta.
+El juego ofrece mejoras que se pueden comprar con galletas. Cada mejora tiene un costo y proporciona beneficios específicos, como aumentar el valor del clic o agregar más cursores. Los jugadores pueden ver las mejoras disponibles y su costo, y luego seleccionar una mejora para comprarla. Si tienen suficientes galletas, se realiza la compra y se aplican los beneficios de la mejora. Cada vez que se compra una mejora, su precio aumenta. Las dos mejoras disponibles hasta el momento son las siguientes:
+
+Poder del clic: Mientras más alto sea el nivel, mayor será el número de galletas conseguidas por clic. (Si se dan dos clics con un poder nivel 5, se conseguirán 10 galletas
+
+Cursor: Los asistentes funcionan como multiplicador del poder del clic. (Si se dan dos clics con un poder nivel 5 y 3 cursores, se conseguirán 30 galletas)
 
 ## Consideraciones
 
