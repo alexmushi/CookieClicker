@@ -18,10 +18,12 @@ Cursor: Los asistentes funcionan como multiplicador del poder del clic. (Si se d
 
 ## Consideraciones
 
-El programa se ejecuta en la consola y se compila con un compilador de C++.
-Se utilizan las bibliotecas iostream, string y vector.
-Las interacciones con el usuario se realizan mediante la entrada y salida estándar (cin y cout).
-Las entradas del usuario se validan para garantizar que sean correctas y evitar errores. Si se llega a ingresar una letra, el programa se cicla.
-El programa no permite al usuario agregar nuevas mejoras al juego. Las mejoras están predefinidas en el código y no se pueden modificar o ampliar durante la ejecución del programa. Si el usuario desea agregar nuevas mejoras, deberá hacerlo directamente en el código fuente.
-Los datos del juego, como el número de galletas, el valor de clic y el contador de cursores, no pueden ser modificados directamente por el usuario. Si se requiere corregir o actualizar estos datos, debe hacerse mediante la modificación del código fuente. Además, si se desean implementar futuros métodos o funcionalidades que involucren cambios en los atributos, es posible que sea necesario agregar getters y setters para acceder y modificar los datos apropiadamente.
-Si el jugador acumula una cantidad extremadamente grande de galletas, podría producirse un desbordamiento de datos en la variable que almacena la cantidad. Esto es altamente probable, pues se necesitarían aproximadamente 2,147,483,647 galletas para que pase (dependiendo del compilador)
+-El programa se ejecuta en la consola y se compila con un compilador de C++.
+
+-Las entradas del usuario se validan para garantizar que sean correctas y evitar errores. Si se llega a ingresar una letra, el programa se cicla.
+
+-El programa no permite al usuario agregar nuevas mejoras al juego. Las mejoras están predefinidas en el código y no se pueden modificar o ampliar durante la ejecución del programa. Si el usuario desea agregar nuevas mejoras, deberá hacerlo directamente en el código fuente.
+
+-Los datos del juego, como el número de galletas, el valor de clic y el contador de cursores, no pueden ser modificados directamente por el usuario. Si se requiere corregir o actualizar estos datos, debe hacerse mediante la modificación del código fuente. Además, si se desean implementar futuros métodos o funcionalidades que involucren cambios en los atributos, es posible que sea necesario agregar getters y setters para acceder y modificar los datos apropiadamente.
+
+-Si el jugador acumula una cantidad extremadamente grande de galletas, podría producirse un desbordamiento de datos en la variable que almacena la cantidad. Esto es altamente improbable, pues se necesitarían aproximadamente 2,147,483,647 galletas para que pase (dependiendo del compilador).
